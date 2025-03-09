@@ -18,21 +18,23 @@
 #include "klor.h"
 
 
+/*
 oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
     return OLED_ROTATION_180;
 }
+*/
 
 
 //#ifdef HAPTIC_ENABLE
 //#include "drivers/haptic/DRV2605L.h"
 //#endif //HAPTIC ENABLE
 
-
+/*
 #ifdef SWAP_HANDS_ENABLE
 
 __attribute__ ((weak))
 const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRIX_COLS] =
-
+*/
 /*  ORIGINAL LAYOUT
 {  // LEFT 
  { {0, 0}, {1, 0}, {2, 0}, {3, 0}, {4, 0}, {5, 0} }, \
@@ -46,7 +48,7 @@ const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRIX_COLS] =
  { {0, 7}, {1, 7}, {2, 7}, {3, 7}, {4, 7}, {5, 7} }, \
 };
 */
-
+/*
 //  MIRRORED LAYOUT
 {  // LEFT 
  { {0, 4}, {1, 4}, {2, 4}, {3, 4}, {4, 4}, {5, 4} }, \
@@ -61,7 +63,7 @@ const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRIX_COLS] =
 };
 
 #endif //SWAP_HANDS_ENABLE
-
+*/
 
 
 
